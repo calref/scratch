@@ -1,13 +1,12 @@
 {
-  "name": "sylae/scratch",
+  "name": "calref/scratch",
   "description": "Create playlists for your robot DJ",
   "type": "project",
   "keywords": [
     "xspf",
-    "id3",
-    "chatbot"
+    "id3"
   ],
-  "homepage": "https://github.com/sylae/scratch",
+  "homepage": "https://github.com/calref/scratch",
   "license": "GPL-3.0+",
   "authors": [
     {
@@ -19,10 +18,10 @@
   ],
   "support": {
     "email": "sylae@calref.net",
-    "issues": "https://github.com/sylae/scratch/issues",
-    "wiki": "https://github.com/sylae/scratch/wiki",
+    "issues": "https://github.com/calref/scratch/issues",
+    "wiki": "https://github.com/calref/scratch/wiki",
     "irc": "xmpp://lounge@conference.calref.net",
-    "source": "https://github.com/sylae/scratch"
+    "source": "https://github.com/calref/scratch"
   },
   "require": {
     "querypath/querypath": "^3.0",
