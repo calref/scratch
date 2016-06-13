@@ -1,0 +1,40 @@
+{
+  "name": "sylae/scratch",
+  "description": "Create playlists for your robot DJ",
+  "type": "project",
+  "keywords": [
+    "xspf",
+    "id3",
+    "chatbot"
+  ],
+  "homepage": "https://github.com/sylae/scratch",
+  "license": "GPL-3.0+",
+  "authors": [
+    {
+      "name": "Sylae Jiendra Corell",
+      "email": "sylae@calref.net",
+      "homepage": "https://calref.net",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "sylae@calref.net",
+    "issues": "https://github.com/sylae/scratch/issues",
+    "wiki": "https://github.com/sylae/scratch/wiki",
+    "irc": "xmpp://lounge@conference.calref.net",
+    "source": "https://github.com/sylae/scratch"
+  },
+  "require": {
+    "querypath/querypath": "^3.0",
+    "doctrine/dbal": "2.5.2",
+    "monolog/monolog": "^1.18",
+    "ext-mbstring": "*",
+    "ext-pcre": "*",
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Scratch\\": "classes/"
+    }
+  }
+}
